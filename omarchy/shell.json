@@ -1,0 +1,122 @@
+{
+  "bar": {
+    "centerAnchor": "omarchy.clock",
+    "layout": {
+      "center": [
+        {
+          "id": "omarchy.keyboard-layout"
+        },
+        {
+          "id": "omarchy.system-update"
+        },
+        {
+          "id": "omarchy.indicators"
+        },
+        {
+          "birthYear": 1991,
+          "format": "ddd d MMM h:mm AP",
+          "formatAlt": "d MMMM 'W'ww yyyy",
+          "id": "omarchy.clock",
+          "lifeExpectancy": 90,
+          "verticalFormat": "HH\n—\nmm"
+        },
+        {
+          "id": "io.github.73Zut.weather"
+        },
+        {
+          "id": "tathagat11.checklist-todo"
+        },
+        {
+          "id": "omaplug"
+        }
+      ],
+      "left": [
+        {
+          "id": "omarchy.menu"
+        },
+        {
+          "id": "omarchy.workspaces"
+        },
+        {
+          "id": "io.github.ctl0v0.keybinding-guide"
+        }
+      ],
+      "right": [
+        {
+          "id": "omarchy.media"
+        },
+        {
+          "hidden": [
+            "Slack_status_icon_1"
+          ],
+          "id": "omarchy.tray",
+          "pinned": []
+        },
+        {
+          "id": "gladimdim.config-sync"
+        },
+        {
+          "id": "jankeesvw.meetings"
+        },
+        {
+          "id": "jankeesvw.meeting-recorder"
+        },
+        {
+          "id": "equalizer"
+        },
+        {
+          "id": "yamz8.omanki"
+        },
+        {
+          "id": "io.github.thisisgm.omapods"
+        },
+        {
+          "id": "jankeesvw.notification-center"
+        },
+        {
+          "id": "io.github.codemonkey76.micfx"
+        },
+        {
+          "id": "crmne.hyprmoncfg"
+        },
+        {
+          "id": "omarchy.agents"
+        },
+        {
+          "id": "omarchy.bluetooth"
+        },
+        {
+          "id": "omarchy.network"
+        },
+        {
+          "id": "omarchy.audio"
+        },
+        {
+          "id": "omarchy.monitor"
+        },
+        {
+          "id": "omarchy.power",
+          "showPercentage": false
+        }
+      ]
+    },
+    "position": "top",
+    "transparent": false
+  },
+  "idle": {
+    "lock": 300,
+    "screensaver": 150
+  },
+  "plugins": [
+    {
+      "id": "omarchy-spacexai-usage"
+    },
+    {
+      "id": "io.github.aonatsky.zen-sync"
+    },
+    {
+      "id": "io.github.smoothpixels.cursor-accent"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,13 @@
+#!/bin/bash
+# Screenshot entry point for the Print key and the capture menu.
+# Puts the hyprpicker wrapper ahead of /usr/bin for this command only.
+
+export PATH="${HOME}/.local/lib/omarchy-screenshot-cursor:${PATH}"
+
+cleanup() {
+  hyprctl eval 'hl.config({ cursor = { invisible = false } })' >/dev/null 2>&1 || true
+}
+trap cleanup EXIT INT TERM
+
+/usr/bin/omarchy-capture-screenshot "$@"
+exit $?

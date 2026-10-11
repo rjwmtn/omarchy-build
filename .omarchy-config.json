@@ -1,0 +1,8 @@
+{
+  "machine_local": [
+    "hypr/hyprmoncfg-monitors.lua"
+  ],
+  "format": "omarchy-config",
+  "version": 1,
+  "synced_by": "gladimdim.config-sync"
+}
