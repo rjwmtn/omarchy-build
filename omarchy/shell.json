@@ -10,18 +10,12 @@
           "id": "omarchy.system-update"
         },
         {
-          "id": "omarchy.indicators"
-        },
-        {
           "birthYear": 1991,
           "format": "ddd d MMM h:mm AP",
           "formatAlt": "d MMMM 'W'ww yyyy",
           "id": "omarchy.clock",
           "lifeExpectancy": 90,
           "verticalFormat": "HH\n—\nmm"
-        },
-        {
-          "id": "io.github.73Zut.weather"
         },
         {
           "id": "tathagat11.checklist-todo"
@@ -38,7 +32,14 @@
           "id": "omarchy.workspaces"
         },
         {
+          "id": "io.github.kvm404.laser-pointer"
+        },
+        {
           "id": "io.github.ctl0v0.keybinding-guide"
+        },
+        {
+          "alwaysShow": true,
+          "id": "omarchy.indicators"
         }
       ],
       "right": [
@@ -51,6 +52,12 @@
           ],
           "id": "omarchy.tray",
           "pinned": []
+        },
+        {
+          "id": "tornikegomareli.talkify"
+        },
+        {
+          "id": "io.github.73Zut.weather"
         },
         {
           "id": "gladimdim.config-sync"
@@ -101,7 +108,7 @@
       ]
     },
     "position": "top",
-    "transparent": false
+    "transparent": true
   },
   "idle": {
     "lock": 300,

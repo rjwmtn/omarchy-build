@@ -85,3 +85,8 @@ o.bind("SUPER + X", "Universal cut", universal_cut)
 -- pointer only while the freeze frame is taken.
 hl.unbind("PRINT")
 o.bind("PRINT", "Screenshot", "/home/ryan/.local/bin/omarchy-screenshot-no-cursor")
+
+-- config-sync cherry-pick
+o.bind("F3", "Screenshot Region", "omarchy-capture-screenshot region")
+o.bind("SUPER + Super_R", "Dictation (Talkify)", "talkify tap", { release = true })
+o.bind("XF86LaunchA", "Screenshot Region (Apple top row)", "omarchy-capture-screenshot region")

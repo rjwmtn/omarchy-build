@@ -6,6 +6,8 @@
 hl.config({
   input = {
     natural_scroll = true,
+    -- Slightly faster than the default of 0. Range is -1.0 to 1.0.
+    sensitivity = 0.2,
     touchpad = {
       natural_scroll = true,
     },
