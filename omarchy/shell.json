@@ -22,6 +22,9 @@
         },
         {
           "id": "omaplug"
+        },
+        {
+          "id": "io.github.73Zut.weather"
         }
       ],
       "left": [
@@ -54,10 +57,7 @@
           "pinned": []
         },
         {
-          "id": "tornikegomareli.talkify"
-        },
-        {
-          "id": "io.github.73Zut.weather"
+          "id": "io.github.denonmaryland.tricky-tiles"
         },
         {
           "id": "gladimdim.config-sync"
@@ -103,12 +103,12 @@
         },
         {
           "id": "omarchy.power",
-          "showPercentage": false
+          "showPercentage": true
         }
       ]
     },
     "position": "top",
-    "transparent": true
+    "transparent": false
   },
   "idle": {
     "lock": 300,

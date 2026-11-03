@@ -28,12 +28,4 @@ require("default.hypr.toggles")
 -- Add any other personal Hyprland configuration below.
 -- o.window("qemu", { workspace = "5" })
 
--- X post composer (Super+Shift+Alt+X): small centered dialog, not a tiled browser.
--- https://github.com/omacom/omarchy/pull/12613
-o.window("^.+-x\\.com__compose_post-.*$", { float = true, center = true, size = { 540, 320 } })
-
--- Hybrid Intel+NVIDIA: Omarchy's nvidia.lua sets LIBVA_DRIVER_NAME=nvidia
--- whenever a GSP NVIDIA GPU exists. Chrome GL is on the Intel iGPU
--- (renderD129), so NVIDIA VA-API decode flashes Meet and can abort the
--- GPU process. Keep VA-API on Intel. Do not set AQ_DRM_DEVICES.
-hl.env("LIBVA_DRIVER_NAME", "iHD")
+do local d = debug.getinfo(1, "S").source:match("^@(.*/)") or os.getenv("HOME") .. "/.config/hypr/"; local p = d .. "tricky-tiles.lua"; local f = io.open(p); if f then f:close(); dofile(p) end end -- Tricky Tiles (remove via its panel)

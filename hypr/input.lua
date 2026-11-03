@@ -1,13 +1,10 @@
 -- Keep only your personal input overrides here. Uncommented settings below
 -- replace Omarchy's defaults.
 
--- Invert scrolling (content follows finger / wheel).
--- See https://wiki.hypr.land/Configuring/Basics/Variables/#input
+-- Invert scroll direction on the mouse and the touchpad.
 hl.config({
   input = {
     natural_scroll = true,
-    -- Slightly faster than the default of 0. Range is -1.0 to 1.0.
-    sensitivity = 0.2,
     touchpad = {
       natural_scroll = true,
     },
